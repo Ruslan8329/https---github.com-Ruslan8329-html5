@@ -207,3 +207,16 @@
 .cloud-text {
   width: 100%;
 }
+
+.cloud-text {
+  display: flex;
+  align-items: center; 
+}
+
+.iphone-img {
+  margin-right: 20px; 
+}
+
+.card-info {
+  flex: 1; 
+}
