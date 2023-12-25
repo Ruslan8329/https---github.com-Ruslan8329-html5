@@ -180,11 +180,17 @@
   border-radius: 5px;
 }
 
+.cloud-section {
+  background-color: #081130;
+  width: 100%;
+}
+
 .cloud-title {
   font-family: Montserrat;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
+  color: white;
 }
 
 .cloud-subtitle {
@@ -192,6 +198,7 @@
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
+  color: white;
 }
 
 .cloud-button {
@@ -210,13 +217,125 @@
 
 .cloud-text {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 .iphone-img {
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 .card-info {
-  flex: 1; 
+  flex: 1;
+}
+
+.phone-btn {
+  margin-bottom: 40px;
+}
+
+.cloud-title {
+  margin-bottom: 30px;
+}
+
+.cloud-subtitle {
+  margin-bottom: 40px;
+}
+
+.confectioner-btn {
+  font-family: Montserrat;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: grey;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 5px;
+}
+
+.confectioner-title {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.confectioner-item {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.confectioner-item__list {
+  margin-top: 15px;
+}
+.confectioner-second__btn {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: #fed84c;
+  padding: 30px 50px;
+  color: black;
+  border-radius: 8px;
+}
+
+.confectioner-button {
+  margin-top: 90px;
+}
+
+.women-name {
+  background-color: #081130;
+  width: 130px;
+  color: white;
+  padding: 15px 12px;
+  border-radius: 5px;
+}
+
+.women-description {
+  background-color: grey;
+  width: 100px;
+  color: white;
+  padding: 12px 8px;
+  border-radius: 5px;
+}
+
+.confectioner {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.women-foto {
+  margin-left: 90px;
+}
+
+.product-image {
+  position: relative;
+}
+
+.sale {
+  position: absolute;
+  color: yellow;
+  font-size: 70px;
+  top: -25px;
+  left: 222px;
+}
+
+.top-sale {
+  position: absolute;
+  color: red;
+  font-size: 60px;
+  top: -30px;
+  left: 130px;
+}
+
+.sold-out {
+  position: absolute;
+  color: black;
+  font-size: 70px;
+  top: 20px;
+  left: 60px;
 }
